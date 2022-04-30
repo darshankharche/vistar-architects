@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  transition: 250ms color linear;
 }
 
 body{
@@ -55,6 +56,15 @@ ul a{
   text-decoration: none;
 }
 
+.home-images{
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1em;
+}
 
 .carousel{
   padding: 2em;
@@ -108,15 +118,17 @@ ul a{
 .about{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .about h1{
+  margin-top:0;
   font-size: 2.25rem;
 }
 
 .about h2{
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-top:0;
 }
 
 .about .about-section{
@@ -141,23 +153,34 @@ ul a{
     margin-top: 2em;
   }
 
- .footer a{
+  .footer .mail{
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer .mail:hover{
+    color: gold;
+  }
+
+  .all-links{
+    margin-top:.4em;
+  }
+
+ .all-links a{
    text-decoration: none;
    color: white;
-   transform: scale(1);
-   
-   transition: 500ms transform  ease-in-out;
-   
+   transform: scale(1);   
+   transition: 500ms transform  ease-in-out;   
  }
 
- .footer a:hover{
+ .all-links a:hover{
   text-decoration: none;
   color: gold;
   transform: scale(1.1);
 }
 
  .about-head{
-   padding-top: 1.5em;
+   padding-top: 1em;
    text-decoration:underline solid rgba(255, 217, 0, 0.53);
  }
 
@@ -191,3 +214,12 @@ ul a{
   color: black;
   cursor: pointer;
 }
+
+.sub-header{
+ font-size: 2rem;
+ transition: 250ms color linear;
+}
+
+.sub-header:hover{
+  color: gold;
+ }

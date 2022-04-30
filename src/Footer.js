@@ -4,7 +4,7 @@ export default function Footer(){
     return(
         <div className='footer'>
             <hr></hr>
-            <a href="mailto:vistar.architect23@gmail.com">vistar.architect23@gmail.com</a>
+            <a className='mail' href="mailto:vistar.architect23@gmail.com">vistar.architect23@gmail.com</a>
             <div className='all-links'>
                 <a href="https://www.instagram.com/vistar_architects" >
                     <i className="fa-brands fa-instagram"></i>

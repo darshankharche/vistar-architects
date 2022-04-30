@@ -16,8 +16,8 @@ export default function About(props){
             <div className='about-section'>
                 <img src='./images/mohit.jpeg' alt="mohit-metkar"/>
                 <div className='about-sub-section'>
-                    <h2>Mohit Metkar – Professional Architectural and Interior Photographer</h2>
-                    <p>Constantly in the pursuit of an enriching visual experience, Abhishek,
+                    <h2><span className="sub-header">Mohit Metkar</span> – Professional Architectural and Interior Photographer</h2>
+                    <p>Constantly in the pursuit of an enriching visual experience, Mohit,
                     holding a Bachelors’s degree in Architecture, inspired by some world famous Architectural 
                     photographers Mike Kelly, Scott Hargis and Julia Anna Gospodarou, he has come a long way 
                     as a Professional Architectural Photographer. Driven by a strong sense of space & composition 
