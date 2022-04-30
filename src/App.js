@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
-import HomeCarousel from './components/home/Carousel';
+// import HomeCarousel from './components/home/Carousel';
 import Projects from './components/projects/Projects';
 import Slider from './components/home/Slider';
 import About from './components/about/About';
