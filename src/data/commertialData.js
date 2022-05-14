@@ -1,0 +1,40 @@
+const commertialData = [
+    {
+        id:0,
+        image:'/images/mohit.jpeg'
+    },
+    {
+        id:1,
+        image:'/images/home2.jpg'
+    },
+    {
+        id:2,
+        image:'/images/home3.jpg'
+    },
+    {
+        id:3,
+        image:'/images/mohit.jpeg'
+    },
+    {
+        id:4,
+        image:'/images/home2.jpg'
+    },
+    {
+        id:5,
+        image:'/images/home3.jpg'
+    },
+    {
+        id:6,
+        image:'/images/mohit.jpeg'
+    },
+    {
+        id:7,
+        image:'/images/home2.jpg'
+    },
+    {
+        id:8,
+        image:'/images/home3.jpg'
+    }
+]
+
+export default commertialData
